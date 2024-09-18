@@ -1,0 +1,45 @@
+.footer{
+    height: 25vh;
+    background-color: #E0E0E0 ;
+    padding: 20px;
+}
+
+.footerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.footerText{
+    font-size: 1.2rem;
+}
+
+.footerText p{
+    margin-top: 10px;
+}
+
+.footerText span{
+    color: #0047AB;
+    font-weight: bold;
+}
+
+.footerIcons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 3rem;
+}
+
+.footerIcons a{
+    text-decoration: none;
+    color: #0047AB;
+    
+}
+
+.footerIcons svg{
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+

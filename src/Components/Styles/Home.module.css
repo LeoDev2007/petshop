@@ -1,0 +1,116 @@
+.home{
+    height: 110vh;
+    width: 100%;
+}
+
+.about{
+    padding: 20px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.about button{
+    padding: 10px 10px;
+    border: none;
+    background-color: #0047AB;
+    border-radius: 20px;
+}
+
+.about .link{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.aboutContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1800px;
+    margin-bottom: 30px;
+}
+
+.aboutText{
+    max-width: 400px;
+    margin-right: 280px;
+}
+
+.aboutText h2{
+    font-size: 3rem;
+}
+
+.aboutText p{
+    font-size: 1.3rem;
+    text-align: justify;
+    margin-top: 20px;
+    line-height: 28px;
+}
+
+.aboutText span{
+    color: #0047AB;
+    font-weight: bold;
+}
+
+.aboutImage{
+    width: 400px;
+    height: 400px;
+}
+
+.aboutImage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 1281px){
+
+    .home{
+        height: 120vh;
+    }
+    .about{
+        padding: 10px;
+    }
+
+    .aboutText{
+        margin-right: 150px;
+    }
+}
+
+@media (max-width: 885px){
+
+    .about{
+        flex-direction: column;
+    }
+
+    .aboutContainer{
+        flex-direction: column;
+    }
+
+    .aboutText{
+        text-align: center;
+        max-width: 500px;
+        margin-right: 0;
+        padding-top: 20px;
+    }
+
+    .aboutText h2{
+        font-size: 2rem;
+    }
+
+    .aboutImage{
+        width: 340px;
+        height: 340px;
+    }
+}
+
+@media (max-width: 769px){
+    .aboutImage{
+        width: 320px;
+        height: 320px;
+    }
+
+    .about button{
+        display: none;
+    }
+}

@@ -1,0 +1,46 @@
+header .menuDesktop{
+    background-color: #0047AB ;
+    padding: 0.5rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+header .logo svg{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 4.5rem;
+}
+
+header .menu ul{
+    display: flex;
+    padding-top: 20px;
+}
+
+header .menu ul li{
+    margin-left: 3rem;
+    font-size: 1.3rem;
+    list-style: none;
+}
+
+header .menu .link{
+    text-decoration: none;
+    color: #FFF;
+    padding: 10px 10px;
+    transition: .3s ease;
+}
+
+header .menu .link:hover{
+    border-radius: 30px;
+    box-shadow: 0 0 10px #FFF;
+}
+
